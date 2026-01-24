@@ -107,3 +107,94 @@ git clone https://github.com/your-username/culinara-recipe-app.git
 cd culinara-recipe-app
 ```
 
+2️⃣ Add Recipe Images
+
+Create an images folder in the root directory and add your recipe images.
+
+Example:
+
+images/
+  ro1.jpeg
+  ro2.jpeg
+
+  Or update image URLs inside script.js to use online images.
+
+  3️⃣ Run the App
+
+Open index.html in your browser.
+
+For best results, use a local server:
+
+VS Code Live Server
+
+🧩 Customizing Recipes
+
+Recipes are stored in script.js inside the MOCK_RECIPES array.
+
+Example:
+```
+const MOCK_RECIPES = [
+  {
+    id: 1,
+    title: "Creamy Garlic Pasta",
+    image: "./images/pasta.jpg",
+    time: "25 min",
+    difficulty: "Easy",
+    calories: "450 kcal",
+    rating: 4.8,
+    category: "Dinner",
+    ingredients: [...],
+    steps: [...]
+  }
+];
+```
+You can:
+
+Add new recipes
+
+Edit categories
+
+Change cooking steps
+
+Replace images
+
+No backend required.
+
+🎯 Future Improvements
+
+Ideas if you want to level this up:
+
+Connect to a real recipe API
+
+Add dark mode
+
+Add user accounts + saved recipes
+
+Voice-guided Cooking Mode
+
+Drag-and-drop meal planner
+
+🤝 Contributing
+
+Contributions are welcome.
+
+Fork the repo
+
+Create a branch
+```
+git checkout -b feature/your-feature
+```
+
+Commit changes
+```
+git commit -m "Add new feature"
+```
+
+Push
+```
+git push origin feature/your-feature
+```
+
+📄 License
+
+This project is licensed under the MIT License.
