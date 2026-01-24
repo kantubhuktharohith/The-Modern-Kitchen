@@ -6,6 +6,7 @@ Culinara is a responsive, beautifully designed recipe web app built with Vanilla
 
 
 📸 Preview
+![image alt](https://github.com/kantubhuktharohith/The-Modern-Kitchen/blob/85e8d9ddd25e30a13195447eec991baf199d8e51/Screenshot%202026-01-24%20204154.png)
 
 🌟 Features
 🔍 Smart Recipe Discovery
