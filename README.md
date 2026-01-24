@@ -198,3 +198,7 @@ git push origin feature/your-feature
 📄 License
 
 This project is licensed under the MIT License.
+
+💡 Author Note
+
+Culinara was built to show how far you can go with just HTML, CSS, and JavaScript — no frameworks, no heavy tooling, just clean fundamentals and thoughtful UX.
